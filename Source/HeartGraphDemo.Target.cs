@@ -1,7 +1,6 @@
-// Copyright Epic Games, Inc. All Rights Reserved.
+// Copyright Guy (Drakynfly) Lundvall. All Rights Reserved.
 
 using UnrealBuildTool;
-using System.Collections.Generic;
 
 public class HeartGraphDemoTarget : TargetRules
 {
@@ -9,7 +8,7 @@ public class HeartGraphDemoTarget : TargetRules
 	{
 		Type = TargetType.Game;
 		DefaultBuildSettings = BuildSettingsVersion.V2;
-		IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_1;
+		IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_2;
 		ExtraModuleNames.Add("HeartGraphDemo");
 	}
 }
