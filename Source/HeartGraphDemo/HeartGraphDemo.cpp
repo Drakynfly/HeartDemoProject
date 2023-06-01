@@ -1,7 +1,6 @@
-// Copyright Epic Games, Inc. All Rights Reserved.
+// Copyright Guy (Drakynfly) Lundvall. All Rights Reserved.
 
 #include "HeartGraphDemo.h"
 #include "Modules/ModuleManager.h"
 
-IMPLEMENT_PRIMARY_GAME_MODULE( FDefaultGameModuleImpl, HeartGraphDemo, "HeartGraphDemo" );
- 
+IMPLEMENT_PRIMARY_GAME_MODULE(FDefaultGameModuleImpl, HeartGraphDemo, "HeartGraphDemo");
