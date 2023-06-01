@@ -1,6 +1,3 @@
 [submodule "Plugins/HeartGraph"]
 	path = Plugins/HeartGraph
 	url = git@github.com:Drakynfly/HeartGraph.git
-[submodule "Plugins/HeartDemoContent"]
-	path = Plugins/HeartDemoContent
-	url = git@github.com:Drakynfly/HeartDemoContent.git
