@@ -8,6 +8,8 @@ public class HeartGraphDemo : ModuleRules
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 
+		ApplySharedModuleSetup(this, Target);
+
 		PublicDependencyModuleNames.AddRange(new []
 		{
 			"Core",
@@ -16,5 +18,14 @@ public class HeartGraphDemo : ModuleRules
 			"InputCore",
 			"EnhancedInput"
 		});
+	}
+
+	public static void ApplySharedModuleSetup(ModuleRules Module, ReadOnlyTargetRules Target)
+	{
+		if (Target.Configuration == UnrealTargetConfiguration.DebugGame
+		    || Target.Configuration == UnrealTargetConfiguration.Debug)
+		{
+			Module.bUseUnity = false;
+		}
 	}
 }
