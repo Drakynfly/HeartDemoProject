@@ -1,6 +1,7 @@
 // Copyright Guy (Drakynfly) Lundvall. All Rights Reserved.
 
 using UnrealBuildTool;
+using System.Collections.Generic;
 
 public class HeartGraphDemoEditorTarget : TargetRules
 {
@@ -9,6 +10,6 @@ public class HeartGraphDemoEditorTarget : TargetRules
 		Type = TargetType.Editor;
 		DefaultBuildSettings = BuildSettingsVersion.Latest;
 		IncludeOrderVersion = EngineIncludeOrderVersion.Latest;
-		ExtraModuleNames.Add("HeartGraphDemo");
+		ExtraModuleNames.AddRange( new string[] { "HeartGraphDemo" } );
 	}
 }
