@@ -4,3 +4,6 @@
 [submodule "Plugins/HeartDemoContent"]
 	path = Plugins/HeartDemoContent
 	url = https://github.com/Drakynfly/HeartDemoContent.git
+[submodule "Plugins/Flakes"]
+	path = Plugins/Flakes
+	url = git@github.com:Drakynfly/Flakes.git
